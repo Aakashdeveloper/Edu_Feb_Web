@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+#first{
+    color:red;
+    display: inline-block
+}
+
+#social{
+    display: inline-block;
+    margin-left:80%;
+    
+}
+
+#main{
+    background-color: lightgreen;
+}
+#second{
+    color:orange;
+    text-align:right
+}
+
+.logo{
+    width:50px;
+    height:50px
+}
+
+.mytag{
+    text-decoration: none;
+}
+
+#firstBlock{
+    height:200px;
+    width:49%;
+    background:teal;
+    display: inline-block
+}
+#secondBlock{
+    height:200px;
+    width:49%;
+    background:indigo;
+    display: inline-block
+}
+
+#firsta{
+    display: block
+}
+#firstb{
+    display: block
+}
+
+.circle{
+    height:150px;
+    width: 150px;
+    background-color: olive;
+    border-radius: 50%;
+}
+
+.mydiv{
+    height:250px;
+    width: 250px;  
+    background-color: tomato;
+    border:10px double black;
+    box-shadow: 10px 10px gray;
+}

@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+#first{
+    color:red;
+    display: inline-block
+}
+
+#social{
+    display: inline-block;
+    margin-left:80%;
+    
+}
+
+#main{
+    background-color: lightgreen;
+}
+#second{
+    color:orange;
+    text-align:right
+}
+
+.logo{
+    width:50px;
+    height:50px
+}
+
+.mytag{
+    text-decoration: none;
+}
+
+#ImageContainer{
+    background: url('https://i.ibb.co/85b18PM/food-wallpaper.png');
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid gray
+}
+
+#logo1{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color: white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top:80px;
+    margin-bottom:40px;
+}
+
+#heading{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+}

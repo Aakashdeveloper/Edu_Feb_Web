@@ -15,3 +15,15 @@ Inline Element > start in same line
 Block Level Element > start in new line
 
 self closing
+
+///////////
+inline CSS
+style tag
+stylesheet
+
+inline > styletag> stylesheet
+
+///////////////
+tagname 
+id > is for unique
+class > is for common
