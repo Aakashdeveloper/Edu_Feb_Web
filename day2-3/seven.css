@@ -1,0 +1,20 @@
+#onediv{
+    height:200px;
+    width:400px;
+    background-color: red;
+    position: absolute
+}
+
+#twodiv{
+    height:200px;
+    width:400px;
+    background-color: hotpink;
+    margin-top:50px
+}
+
+#thirddiv{
+    height:200px;
+    width:400px;
+    background-color: greenyellow;
+    
+}

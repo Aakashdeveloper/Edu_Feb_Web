@@ -1,0 +1,167 @@
+body{
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+}
+#first{
+    color:red;
+    display: inline-block
+}
+
+#social{
+    display: inline-block;
+    margin-left:80%;
+
+    
+}
+
+#main{
+    background-color: lightgreen;
+}
+#second{
+    color:orange;
+    text-align:right
+}
+
+.logo{
+    width:50px;
+    height:50px
+}
+
+.mytag{
+    text-decoration: none;
+}
+
+#ImageContainer{
+    background: url('https://i.ibb.co/85b18PM/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid gray
+}
+
+#logo1{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color: white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top:80px;
+    margin-bottom:40px;
+}
+
+#heading{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+}
+
+.dropdown{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+select{
+    height:50px;
+    width:250px;
+    font-size:20px;
+    border-radius:20px
+}
+
+.QuickSearchContainer{
+    margin-left:115px;
+    margin-top:50px;
+    }
+
+#QuickHeading{
+    color:navy;
+    font-size:30px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: .01;
+    position: absolute;
+    margin-top:15px;
+}
+
+.tileContainer{
+    height:160px;
+    width:28%;
+    margin-top:50px;
+    margin-bottom:20px;
+    display: inline-block;
+    box-shadow: 0px 3px 15px black;
+    margin-right:5%;
+   
+    transition: transform 3s;
+    visibility: visible;
+    background-image: radial-gradient(skyblue,pink,rgb(177, 144, 238));
+    -moz-background-image: linear-gradient(skyblue,pink,rgb(177, 144, 238));
+    -webkit-background-image: linear-gradient(skyblue,pink,rgb(177, 144, 238),lightcoral);
+    -o-background-image: linear-gradient(skyblue,pink,rgb(177, 144, 238),lightcoral)
+}
+
+.tileComponent1{
+    width:46%;
+    float:left
+}
+.tileComponent2{
+    width:46%;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.componentHeading{
+    color:navy;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+    line-height: 1;
+}
+
+.tileContainer:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (min-width:400px){
+    body{
+        background:skyblue
+    }
+    .tileContainer{
+        width:80%;
+    }
+
+}
+@media screen and (min-width:800px){
+    body{
+        background:tan
+    }
+    .tileContainer{
+        width:40%;
+    }
+}
+@media screen and (min-width:1000px){
+    body{
+        background:lightcoral
+
+    }
+    .tileContainer{
+        width:28%;
+    }
+}
