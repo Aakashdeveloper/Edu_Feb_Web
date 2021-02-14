@@ -1,0 +1,248 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel='stylesheet' href="first.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-toggle="collapse"
+                        data-target="#edunav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">
+                            Developer Funnel
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="edunav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">
+                                <span class="glyphicon glyphicon-user"></span> SignUp
+                            </a></li>
+                            <li><a href="#">
+                                <span class="glyphicon glyphicon-log-in"></span> Login
+                            </a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+            </nav>
+            <!--
+                <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            Developer Funnel
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            -->
+            <div class="jumbotron">
+                <h1>BootStrap</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                </p>
+                <button class="btn btn-info" data-toggle="modal" data-target="#edumodal">
+                    Details
+                </button>
+                <div id="edumodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal">
+                                    &times;
+                                </button> 
+                                <h4 class="modal-title">Modal Header</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>This is details about Edureka</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" data-dismiss="modal">
+                                    Close
+                                </button>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Employee Form</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fname">FirstName</label>
+                            <input type="text" class="form-control" placeholder="firstname" id="fname" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">LastName</label>
+                            <input type="text" class="form-control" placeholder="lastname"
+                            id="lname"/>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" placeholder="email"
+                                id="email"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" placeholder="password"
+                                id="password"/>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="radio-inline">
+                                <label>
+                                    <input type="radio" value="female" name="gender"/>Female
+                                </label>
+                            </div>
+                            <div class="radio-inline">
+                                <label>
+                                    <input type="radio" value="male" name="gender"/>Male
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="checkbox-inline">
+                                <label>
+                                    <input type="checkbox" value="react" />React
+                                </label>
+                            </div>
+                            <div class="checkbox-inline">
+                                <label>
+                                    <input type="checkbox" value="node" />Node
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Regular</option>
+                                <option>Part-Time</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width:50%">
+                    50% complete
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width:80%">
+                    80% complete
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" style="width:70%">
+                    70% complete
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" style="width:60%">
+                    60% complete
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%">
+                    60% complete
+                </div>
+            </div>
+            <div id="myslider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="manali.jpg"/>
+                    </div>
+                    <div class="item">
+                        <img src="waterfall.jpg"/>
+                    </div>
+                    <div class="item">
+                        <img src="https://i.ibb.co/pv8Kf4m/roseate.jpg"/>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myslider" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myslider" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <table class="table table-bordered table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>RollNo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="success">
+                        <td>John</td>
+                        <th>Ui</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <td>Aakash</td>
+                        <th>Node</th>
+                        <th>2</th>
+                    </tr>
+                    <tr>
+                        <td>Bhumika</td>
+                        <th>React</th>
+                        <th>3</th>
+                    </tr>
+                </tbody>
+            </table>
+            <span class="glyphicon glyphicon-trash"></span>
+            <span class="glyphicon glyphicon-edit"></span>
+            <span class="glyphicon glyphicon-print"></span>
+            <button class="btn">ClickMe</button>
+            <button class="btn btn-primary">ClickMe</button>
+            <button class="btn btn-success">
+                <span class="glyphicon glyphicon-edit"></span>
+            </button>
+            <button class="btn btn-danger">
+                <span class="glyphicon glyphicon-trash"></span>
+            </button>
+            <button class="btn btn-info">ClickMe</button>
+            <button class="btn btn-warning">ClickMe</button>
+            <img src="waterfall.jpg" class="img-responsive"/>
+            <img src="manali.jpg" class="img-responsive"/>
+
+            <div class="row">
+                <div id="one" class="col-lg-5 col-md-4 col-sm-6 col-xs-12"></div>
+                <div id="two" class="col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
+                <div id="three" class="col-lg-2 col-md-4 col-sm-6 col-xs-12"></div>
+                <div id="four" class="col-lg-1 col-md-4 col-sm-6 col-xs-12"></div>
+                <div id="five" class="col-lg-2 col-md-4 col-sm-6 col-xs-12"></div>
+                <div id="six" class="col-lg-2 col-md-4 col-sm-6 col-xs-12"></div>
+            </div>
+            
+        </div>
+    </body>
+</html>

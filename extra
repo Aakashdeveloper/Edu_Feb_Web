@@ -27,3 +27,9 @@ inline > styletag> stylesheet
 tagname 
 id > is for unique
 class > is for common
+
+
+lg 1200px
+md 992px
+sm <= 768
+xs >768

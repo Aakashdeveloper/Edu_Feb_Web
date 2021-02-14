@@ -1,0 +1,27 @@
+#one{
+    height: 200px;
+    background:red
+}
+#two{
+    height: 200px;
+    background:hotpink
+}
+#three{
+    height: 200px;
+    background:green
+}
+#four{
+    height: 200px;
+    background:khaki
+}
+#five{
+    height: 200px;
+    background:lightcoral
+}
+#six{
+    height: 200px;
+    background:teal
+}
+.navbar-inverse{
+    
+}
