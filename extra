@@ -34,15 +34,7 @@ md 992px
 sm <= 768
 xs >768
 
-storage
-condition
-Date
-array
-let const
 
-function
-loop
-map/filter
-DOM
-
-
+dynamicdropdown
+geo
+progress

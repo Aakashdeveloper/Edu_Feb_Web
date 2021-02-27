@@ -123,3 +123,9 @@ a.indexOf('Delhi')
 a.indexOf('Amsterdam')
 -1
 
+a
+(11) ["Hongkong", "Nice", "Bmw", "Audi", "Red", "Yellow", "Green", "Kia", "London", "Paris", "NewYork"]
+a.sort()
+(11) ["Audi", "Bmw", "Green", "Hongkong", "Kia", "London", "NewYork", "Nice", "Paris", "Red", "Yellow"]
+a.reverse()
+(11) ["Yellow", "Red", "Paris", "Nice", "NewYork", "London", "Kia", "Hongkong", "Green", "Bmw", "Audi"]

@@ -31,3 +31,11 @@ mydate.getFullYear()
 
 day start as 0 as sunday and 1 as monday
 month start as 0 jan and  1 as feb 
+
+
+var date = new Date()
+undefined
+date.toLocaleString('default',{month:'long'})
+"February"
+date.toLocaleString('default',{month:'short'})
+"Feb"
