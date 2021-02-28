@@ -35,3 +35,19 @@ isEven(4)
 let add = (a,b) => { return a+b }
 add(1,2)
 3
+
+function add(a,b){
+    return a+b
+}
+
+var add = (a,b) => {
+    return a+b
+}
+
+
+function language(name){
+    this.name
+}
+
+
+var hindi = new language("hindi")
