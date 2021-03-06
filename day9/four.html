@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#heading').mouseover(()=>{
+                    $('#content').slideToggle("slow")
+                })
+            })
+        </script>
+        <style>
+            #heading, #content{
+                text-align:center;
+                background-color: palevioletred;
+            }
+            #content{
+                display: none;
+                padding:50px;
+                background-color: powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="heading">Panel Scroll Down</div>
+        <div id="content">This is from Jquery</div>
+    </body>
+</html>

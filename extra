@@ -38,9 +38,8 @@ xs >768
 https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=
 
 node api.js
-
-
 Jquery
 Animations
 ajax
 weather app
+datatable
